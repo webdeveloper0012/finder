@@ -10,5 +10,5 @@ public class EntityNotFoundException extends ErrorHolder {
     public EntityNotFoundException(String entityName, Object entityValue) {
         super(entityName, entityName + ": " + entityValue + " not found");
     }
-
+ 
 }
